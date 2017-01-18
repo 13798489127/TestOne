@@ -31,4 +31,5 @@
     * [Numer数据类型补全](numer数据类型补全.md)
     * [Array数据类型补全](array数据类型补全.md)
     * [Object数据类型补全](object数据类型补全.md)
+    * [Guid数据类型补全](guid数据类型补全.md)
 
