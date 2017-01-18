@@ -4,7 +4,7 @@
 
 ### 一、获取客户端信息U.CI.GCUInfo的调用
 
-函数名: U.CI.GCUInfo\(callback\)
+        函数名: U.CI.GCUInfo\(callback\)
 
 参数一\(callback\)：回调函数
 
@@ -12,7 +12,7 @@
 
 ### 二、获取客户端ip异步U.CI.AsyGCUInfo的调用
 
-函数名: U.CI.AsyGCUInfo\(callback\)
+        函数名: U.CI.AsyGCUInfo\(callback\)
 
 参数一\(callback\(msg\)\)：回调函数
 
@@ -36,7 +36,7 @@ Console.log\(msg\);//打印信息
 
 ### 三、获取浏览器类型U.CI.getBrowser的调用
 
-函数名: U.CI.getBrowser\(\)
+        函数名: U.CI.getBrowser\(\)
 
 无参数
 
@@ -50,7 +50,7 @@ Console.log\(msg\);//打印信息
 
 ### 四、获取用户电脑系统U.CI.getSystem的调用
 
-函数名: U.CI.getSystem\(\)
+        函数名: U.CI.getSystem\(\)
 
 无参数
 
@@ -60,7 +60,7 @@ Console.log\(msg\);//打印信息
 
 ### 五、判断用户支持html5还是flash U.CI.IsHF的调用
 
-函数名: U.CI.IsHF\(\)
+        函数名: U.CI.IsHF\(\)
 
 无参数
 
@@ -70,13 +70,11 @@ Console.log\(msg\);//打印信息
 
 ### 六、获取浏览器信息U.CI.Browser的调用
 
-函数名U.CI.Browser\(\)
+        函数名U.CI.Browser\(\)
 
 无参数
 
 返回值{object}浏览器信息
 
 实例:
-
-
 
