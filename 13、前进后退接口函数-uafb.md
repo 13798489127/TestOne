@@ -234,7 +234,11 @@ U.Dk.DI.WPFF(true, U.M.apply(this, [[U.AFB.UHash, ([U.D.G.UrlGuide])]]));
 
 ### 14、重载U.AFB.Path.prototype方法
 
-            U.M.Setprototype\(U.AFB.Path.prototype.init, U.AFB.Path.prototype\);
+```
+U.M.Setprototype(U.AFB.Path.prototype.init, U.AFB.Path.prototype);
 
 作用：将U.AFB.Path.prototype的方法重载到U.AFB.Path.prototype.init中
+```
+
+
 
