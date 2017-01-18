@@ -5,7 +5,7 @@
 ### 1、全局变量
 
 ```
-       U.AFB.GoList = {}; //前进后退处理
+U.AFB.GoList = {}; //前进后退处理
 
        U.AFB.UTH = null //url处理
 ```
@@ -34,8 +34,6 @@
 参数（UTF）： string 前进后退在指定的域 如 disk 那就在disk导航
 ```
 
-
-
 #### 3.1设置原型  运行实例化使用
 
 ```
@@ -54,8 +52,6 @@ U.AFB.init.prototype = {
 }
 ```
 
-
-
 ### 4、U.AFB.AddEvent
 
 ```
@@ -70,8 +66,6 @@ U.AFB.init.prototype = {
 示例：U.AFB.AddEvent([[T.U.MU.D.ZDXX, ([_UID, _FTID, _FName, "Disk"])]], "MD");
 ```
 
-
-
 ### 5、U.AFB.AddDrawBack
 
 ```
@@ -81,8 +75,6 @@ U.AFB.init.prototype = {
 
 参数（UCB）：function 前进后退函数添加
 ```
-
-
 
 ### 6、 U.AFB.GQH  未使用
 
@@ -98,8 +90,6 @@ U.AFB.init.prototype = {
 ----------0 后退处理
 ```
 
-
-
 ### 7、U.AFB.DrawBack
 
 ```
@@ -112,8 +102,6 @@ U.AFB.init.prototype = {
 示例：U.AFB.DrawBack("Disk")
 ```
 
-
-
 ### 8、U.AFB.GoForward
 
 ```
@@ -125,8 +113,6 @@ U.AFB.init.prototype = {
 
 示例：U.AFB.GoForward("Disk")
 ```
-
-
 
 ### 9、U.AFB.UHash
 
@@ -143,52 +129,48 @@ U.AFB.init.prototype = {
 U.Dk.DI.WPFF(true, U.M.apply(this, [[U.AFB.UHash, ([U.D.G.UrlGuide])]]));
 ```
 
-
-
 ### 10、U.AFB.TJ 未使用
 
 ```
-       作用：路由统计
-```
+作用：路由统计
 
-使用方法：U.AFB.TJ\(UDE\)
+使用方法：U.AFB.TJ(UDE)
 
-参数（UDE）：Array \[0\]  记录的url处理
+参数（UDE）：Array  [0]  记录的url处理
+                   [1]  回调函数
 
-```
-               \[1\]  回调函数
 ```
 
 ### 11、U.AFB.Set 未使用
 
 ```
-       作用：添加独立路由设置
-```
+作用：添加独立路由设置
 
-使用方法：U.AFB.Set\(UDE\)
+使用方法：U.AFB.Set(UDE)
 
 参数（UDE）: function 监督url hash变化的处理
+```
 
 ### 12、U.AFB.Add 未使用
 
 ```
-       作用：添加设置Hash
-```
+作用：添加设置Hash
 
-使用方法：U.AFB.Add\(UDE, UN\)
+使用方法：U.AFB.Add(UDE, UN)
 
 参数一（UDE）：Array 用户路径
 
-如：[http://www.1473.cn/\\#!/disk/13798489127/f6d7a4b6-e34c-4964-beed-24187b2cb1ba](http://www.1473.cn/\#!/disk/13798489127/f6d7a4b6-e34c-4964-beed-24187b2cb1ba)
+如：http://www.1473.cn/\#!/disk/13798489127/f6d7a4b6-e34c-4964-beed-24187b2cb1ba  
 
-则：UDE = \["disk", "13798489127", "f6d7a4b6-e34c-4964-beed-24187b2cb1ba"\]
+则：UDE = ["disk", "13798489127", "f6d7a4b6-e34c-4964-beed-24187b2cb1ba"]
 
 参数二（UN）：str  title
+```
 
 ### 13、U.AFB.Path  未使用
 
 ```
-       功能：初始化url导航
+功能：初始化url导航
 ```
 
 使用方法：U.AFB.Path\(UCB\)
