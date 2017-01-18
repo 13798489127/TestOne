@@ -24,10 +24,7 @@ U.A.DataBase = {
     Money: ["Mysql", "UseStudio_Pay"], //交易系统
     Develop: ["Mysql", "UseStudio_Develop"] //在线编程平台
 };
-
 ```
-
-
 
 #### 1.3 U.A.Reverse
 
@@ -54,8 +51,6 @@ U.A.Reverse = {
     KF: "http://admin.1473.cn/system/KF.ashx" //admin 统计
 }
 ```
-
-
 
 
 
