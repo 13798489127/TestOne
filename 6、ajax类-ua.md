@@ -102,7 +102,44 @@ U.A.Reverse = {
 
 #### 6.2.1、方法解释
 
-        asdadsa
+```
+U.A.Request.init 
+
+作用：初始化Ajax对象
+
+使用方法: U.A.Request.init(_UDE)
+
+参数一（_UDE）：array    ajax参数
+		----------[0] 访问的地址
+		----------[1] 服务器传参
+		----------[2] 回调函数
+		----------[3] 函数传参  这里的传参第一个为loading元素
+
+注：相关函数参数说明
+		win 当前域 
+		UR  ajax原对象
+		EOR 错误回调函数
+		UFN 触发的函数地址
+		UDE 服务器传参
+		UCB 回调函数
+		UPE 回调参数
+		UAE ajax对象属性
+		UTI  当前使用时间
+
+```
+
+##### 1 、create\(\)方法
+
+```
+作用：Ajax对象创建
+
+使用方法： _UDE = new U.A.Request.init(_UDE); //生成ajax对象
+          _UDE.create(_UDE.UAE); //创建连接
+
+参数（_UDE.UAE）: ajax对象属性
+```
+
+
 
 
 
