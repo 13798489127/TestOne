@@ -2,7 +2,7 @@
 
 ---
 
-1、简介：
+### 1、简介：
 
 登录注册是一个基于 ufrom 的登录窗体，它能够很方便、很轻松的帮助您在网站中构建功能丰富、交互性强的登录注册，主要功能有：
 
@@ -20,13 +20,15 @@
            支持登录状态中的账号重复登录顶下线提醒。
 ```
 
-2、兼容性：
+### 2、兼容性：
 
 Internet Explorer 8及以上、Firefox、Chrome、Safari 、360、qq以及 Opera 支持;
 
-3、使用方法：
+### 3、使用方法
 
-3.1、引入文件：
+
+
+##### 3.1、引入文件
 
 &lt;!-- 引用强大的urform.框架 帮助效率开发 地图控件的开发都是基于这个框架--&gt;
 
@@ -36,67 +38,71 @@ Internet Explorer 8及以上、Firefox、Chrome、Safari 、360、qq以及 Opera
 
 &lt;script src="U.U.L.js" type="text/javascript"&gt;&lt;/script&gt;
 
-3.2、HTML：无
 
-3.3、Javasrcript\(调用方法\):
 
-3.3.1、U.U.L.DLTC\(UIE,UCB\){};登录注册
+##### 3.2、HTML：无
 
-配置:
 
-选项    类型    默认值    说明
 
-UIE    Int    0    UIE==3：登录页面，UIE==1：注册页面，UIE==2：找回密码页面
+### 4、调用方法
 
-UCB    function    undefined    回调函数
-
-\_UDOD    字符串    $\("\#UD\_SYC"\)    获取登录登录注册框
-
-登录调用方法:U.U.L.DLTC\(3\)；
-
-注册调用方法:U.U.L.DLTC\(2\)；
-
-调用后返回： true;  or  false
-
-3.3.2、登录注册切换专用函数
-
-U.U.L.SDL（UTF, UCB\){};
+##### 4.1、U.U.L.DLTC\(UIE,UCB\){};登录注册
 
 配置:
 
-选项    类型    默认值    说明
+| **选项** | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| UIE | Int | 0 |  UIE==3：登录页面，             UIE==1：注册页面，             UIE==2：找回密码页面 |
+| UCB | function | undefined | 回调函数 |
+| \_UDOD | 字符串 | $\("\#UD\_SYC"\) | 获取登录登录注册框 |
 
-\_UDCD    Obj    \[\]    聚焦处理
+登录调用方法:U.U.L.DLTC\(3\)
 
-UCB    function    undefined    回调函数
+注册调用方法:U.U.L.DLTC\(2\)
 
-UTF    字符串/int    0    UIE==3：登录页面，UIE==1：注册页面，UIE==2：找回密码页面
+调用后返回： true  or  false
 
-\_UTF    Array    true    判断是否登录
 
-注册接口
 
-U.A.Request\("UseStudioManage.userregisterAjax", \(\[UN, UP, "", "", 16, ""\]\),
+##### 4.2、登录注册切换函数
 
-@param UN 用户名
+U.U.L.SDL（UTF, UCB\);
+
+配置：
+
+| **选项** | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| UTF | 字符串/int | 0 | UIE==3：登录页面，UIE==1：注册页面，UIE==2：找回密码页面 |
+| UCB | function | undefined | 回调函数 |
+
+注册接口：
 
 ```
+U.A.Request("UseStudioManage.userregisterAjax", ([UN, UP, UE, UC, TI, ""]), cb, ([[$("body")[0], true]]));
+   
+@param UN 用户名
+   
 @param UP 用户密码
 
-    @param 邮箱
+@param UE 邮箱
 
-     @param 
+@param UC 省份证号
 
-     @param TypeID
+@param TI TypeID
 
-     @param
+@param
+
+@param cb 回调函数 
+
+@param ude 回调传参 [[load元素, true], arg, arg......] 
+
 ```
 
-例如: U.U.L.SDL（3）;从注册界面切换到登录界面
+示例：U.U.L.SDL\(3\);
 
-返回值: undefined
+结果：从切换到登录界面
 
-3.3.3、登录enter
+##### 4.3、登录enter
 
 U.U.L.ENDL \(UDOD, UDTD\);
 
