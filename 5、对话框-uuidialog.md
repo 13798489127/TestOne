@@ -34,11 +34,11 @@ $$("div", { "innerHTML": "经过项目团队的不断努力，云端操作系统
                         "font-size" : "14px" 
                      }, 
            },c);
-           
+
 U.UI.Dialog(c);
 ```
 
-
-
 返回窗体：
+
+![](/Image/image099.png)
 

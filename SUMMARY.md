@@ -55,7 +55,8 @@
 * [引用说明](引用说明.md)
 * [1、UForm登录注册中文调用文档API](1、uform登录注册中文调用文档api.md)
 * [2、窗体控件](2、窗体控件.md)
-* [3、Confirm窗体的调用U.UI.Confirm](3、confirm窗体的调用uuiconfirm.md)
+* [3、Confirm窗体的调用](3、confirm窗体的调用uuiconfirm.md)
 * [4、Alert弹窗](4、alert弹窗.md)
 * [5、对话框](5、对话框-uuidialog.md)
+* [6、编辑器区域](6、编辑器区域uuieditor.md)
 
