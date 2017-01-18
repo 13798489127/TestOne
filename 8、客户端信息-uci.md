@@ -38,52 +38,54 @@
 ### 三、获取浏览器类型U.CI.getBrowser的调用
 
 ```
-函数名: U.CI.getBrowser\(\)
-```
+函数名: U.CI.getBrowser()
 
 无参数
 
-返回值 {object}浏览器类型
+返回值  {object} 浏览器类型
 
----------browser浏览器类型如ie chrome firefox safir
+---------browser 浏览器类型如ie  chrome firefox safir
 
----------ver浏览器版本如果ie的7.0 8.0和chrome 33 34
+---------ver 浏览器版本如果ie的 7.0 8.0 和chrome 33 34
+```
 
-实例:
+示例：
+
+![](/assets/image074.png)
 
 ### 四、获取用户电脑系统U.CI.getSystem的调用
 
 ```
-函数名: U.CI.getSystem\(\)
-```
+函数名: U.CI.getSystem()
 
 无参数
 
-返回值{String}操作系统名称
+返回值{String} 操作系统名称
+```
 
-实例:
+示例：  ![](/assets/image075.png)
 
 ### 五、判断用户支持html5还是flash U.CI.IsHF的调用
 
 ```
-函数名: U.CI.IsHF\(\)
-```
+函数名: U.CI.IsHF()
 
 无参数
 
-返回值{String} ‘html5’或’Flash’
+返回值{String} 'html5' 或 'Flash'
+```
 
-实例:
+示例：  ![](/assets/image076.png)
 
 ### 六、获取浏览器信息U.CI.Browser的调用
 
 ```
-函数名U.CI.Browser\(\)
-```
+函数名U.CI.Browser()
 
 无参数
 
 返回值{object}浏览器信息
+```
 
-实例:
+示例：![](/assets/image077.png)
 
