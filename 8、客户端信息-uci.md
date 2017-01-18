@@ -4,39 +4,42 @@
 
 ### 一、获取客户端信息U.CI.GCUInfo的调用
 
-        函数名: U.CI.GCUInfo\(callback\)
+```
+函数名: U.CI.GCUInfo(callback)
 
-参数一\(callback\)：回调函数
+参数一(callback)：回调函数
 
-实例: U.CI.GCUInfo\(function\(\){}\);
+实例: U.CI.GCUInfo(function(){});
+```
 
 ### 二、获取客户端ip异步U.CI.AsyGCUInfo的调用
 
-        函数名: U.CI.AsyGCUInfo\(callback\)
+```
+函数名: U.CI.AsyGCUInfo(callback(msg){ })
 
-参数一\(callback\(msg\)\)：回调函数
+参数一(callback(msg))：回调函数
 
-回调函数参数
+回调返回值：
+(msg):  ip地址信息
 
-\(msg\): ip地址信息
+-------country 国家
 
--------country国家
+-------province 省
 
--------province省
+-------city 城市
 
--------city城市
+-------district 区
 
--------district区
-
-实例: U.CI.AsyGCUInfo\(function\(msg\){
-
-Console.log\(msg\);//打印信息
-
-}\);
+实例: U.CI.AsyGCUInfo(function(msg) {
+        console.log(msg);//打印信息
+      });
+```
 
 ### 三、获取浏览器类型U.CI.getBrowser的调用
 
-        函数名: U.CI.getBrowser\(\)
+```
+函数名: U.CI.getBrowser\(\)
+```
 
 无参数
 
@@ -50,7 +53,9 @@ Console.log\(msg\);//打印信息
 
 ### 四、获取用户电脑系统U.CI.getSystem的调用
 
-        函数名: U.CI.getSystem\(\)
+```
+函数名: U.CI.getSystem\(\)
+```
 
 无参数
 
@@ -60,7 +65,9 @@ Console.log\(msg\);//打印信息
 
 ### 五、判断用户支持html5还是flash U.CI.IsHF的调用
 
-        函数名: U.CI.IsHF\(\)
+```
+函数名: U.CI.IsHF\(\)
+```
 
 无参数
 
@@ -70,7 +77,9 @@ Console.log\(msg\);//打印信息
 
 ### 六、获取浏览器信息U.CI.Browser的调用
 
-        函数名U.CI.Browser\(\)
+```
+函数名U.CI.Browser\(\)
+```
 
 无参数
 
