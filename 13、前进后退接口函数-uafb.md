@@ -138,7 +138,6 @@ U.Dk.DI.WPFF(true, U.M.apply(this, [[U.AFB.UHash, ([U.D.G.UrlGuide])]]));
 
 参数（UDE）：Array  [0]  记录的url处理
                    [1]  回调函数
-
 ```
 
 ### 11、U.AFB.Set 未使用
@@ -164,78 +163,78 @@ U.Dk.DI.WPFF(true, U.M.apply(this, [[U.AFB.UHash, ([U.D.G.UrlGuide])]]));
 
 则：UDE = ["disk", "13798489127", "f6d7a4b6-e34c-4964-beed-24187b2cb1ba"]
 
-参数二（UN）：str  title
+参数二（UN）：str  用户名或标题  默认为 "1473.cn"
 ```
 
 ### 13、U.AFB.Path  未使用
 
 ```
 功能：初始化url导航
-```
 
-使用方法：U.AFB.Path\(UCB\)
+使用方法：U.AFB.Path(UCB)
 
 参数（UCB）：function回调函数 监督url hash变化的处理
+```
 
 #### 13.1 constructor 方法
 
-作用：重载U.AFB.Path
+* 作用：重载U.AFB.Path
 
 #### 13.2  UHash 方法
 
-作用：重载U.AFB.UHash
+* 作用：重载U.AFB.UHash
 
 #### 13.3 TJ方法
 
-作用：重载U.AFB.TJ
+* 作用：重载U.AFB.TJ
 
 #### 13.4 Set方法
 
-作业：重载U.AFB.Set
+* 作业：重载U.AFB.Set
 
 #### 13.5 Add方法
 
-作用：重载U.AFB.Add
+* 作用：重载U.AFB.Add
 
 #### 13.6 init
 
-作用：初始化
+* 作用：初始化
 
 #### 13.6 Ch 方法
 
-作用：地址变化使用
+* 作用：地址变化使用
 
 #### 13.7 setNC 方法
 
-作用：设置当前使用
+* 作用：设置当前使用
 
 #### 13.8 ICH 方法
 
-作用：IE处理  Hash值ie变化
+* 作用：IE处理  Hash值ie变化
 
 #### 13.9 AddHS 方法 IE6-7支持
 
-作用：设置属性
+* 作用：设置属性
 
 #### 13.10 ICHT方法
 
-作用：IE8一下的浏览器保存记录
+* 作用：IE8一下的浏览器保存记录
 
 #### 13.11 UQJH 方法
 
-作用：产生一个接收前进后退的Iframe
+* 作用：产生一个接收前进后退的Iframe
 
 #### 13.12 AUQJH 方法
 
-作用：前进后退回调
+* 作用：前进后退回调
 
 #### 13.13 GO方法
 
-作用：前进后退执行
+* 作用：前进后退执行
 
 ### 14、重载U.AFB.Path.prototype方法
 
-U.M.Setprototype\(U.AFB.Path.prototype.init, U.AFB.Path.prototype\);
+            U.M.Setprototype\(U.AFB.Path.prototype.init, U.AFB.Path.prototype\);
 
 作用：将U.AFB.Path.prototype的方法重载到U.AFB.Path.prototype.init中
 
