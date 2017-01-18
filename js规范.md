@@ -8,7 +8,6 @@
 为了使js符合传统编程语言java，net的编码习惯，特制定命名空间方法。
 
 javascript没有命名空间，导致多个js文件之间没有规范的区分方法，容易重名，命名空间能解决此问题。
-
 ```
 
 > 命名空间的使用方法如下：
@@ -42,7 +41,6 @@ Namespace.register("US", [
                              "Friend", //用户好友"NLInfo" //系统访问用户信息
 
                    ]);
-
 ```
 
 例：有公司名为百度，则注册名为BD的命名空间
@@ -50,26 +48,25 @@ Namespace.register("US", [
 ```
 Namespace.register\("BD"\);
 
-   百度有开发网盘的小组名为WP，注册BD.WP命名空间，则。
+百度有开发网盘的小组名为WP，注册BD.WP命名空间，则。
 
-    Namespace.register\("BD.WP"\)
+Namespace.register\("BD.WP"\)
 
-    网盘下有开发树目录的成员，则注册树木录命名空间TR
+网盘下有开发树目录的成员，则注册树木录命名空间TR
 
-    Namespace.register\("BD.WP.TR"\)
+Namespace.register\("BD.WP.TR"\)
 
-    此树目录开发成员需要定义全局变量roottree，则：
+此树目录开发成员需要定义全局变量roottree，则：
 
-    BD.WP.TR.roottree=null;
+BD.WP.TR.roottree=null;
 
-    此树目录开发成员需要定义函数获取根目录，则定义GetRoot：
+此树目录开发成员需要定义函数获取根目录，则定义GetRoot：
 
-    BD.WP.TR.GetRoot=function\(\){
+BD.WP.TR.GetRoot=function\(\){
 
-      //内容
+//内容
 
-    }
-
+}
 ```
 
 此命名空间能保证开发人员定义的变量和函数不会重名，适合团队开发。
@@ -93,24 +90,23 @@ Namespace.register\("BD"\);
 
 #### （1）、全局变量定义的案例 {#（1）、全局变量定义的案例}
 
-                 全局变量必须是在整体起到关键作用的，全局变量必须是json格式的如果是单个变量的话请写好注释并且说明理由
+    全局变量必须是在整体起到关键作用的，全局变量必须是json格式的如果是单个变量的话请写好注释并且说明理由
 
-                 a    定义方法
+      a    定义方法
 
-                      `U.F.userid = null;//这个是正确的全局变量的定义`
+          `U.F.userid = null;//这个是正确的全局变量的定义`
 
-                      `var userid = null;//只是个错误的全局变量的定义`
+          `var userid = null;//只是个错误的全局变量的定义`
 
-                 b    json格式全局变量
+      b    json格式全局变量
 
-                       `U.U.R.userinfo = {};`
+           `U.U.R.userinfo = {};`
 
-                       `U.U.R.Disk = {};`
+           `U.U.R.Disk = {};`
 
-                       `U.U.R.Blog = {};`
+           `U.U.R.Blog = {};`
 
-                       `U.U.R.Friend = {};`
-
+           `U.U.R.Friend = {};`
 
 c 普通全局变量一定要详细注释
 
@@ -119,8 +115,7 @@ c 普通全局变量一定要详细注释
 ```
 a、局部变量的应用，请举例说明
 
-          b、功能区和非功能区不明确，下面举例说明
-
+b、功能区和非功能区不明确，下面举例说明
 ```
 
 ## 4、函数命名规范 {#4、函数命名规范}
@@ -196,6 +191,12 @@ a、局部变量的应用，请举例说明
 > ```**``"YJF": "3c779543-bc1a-4851-af22-af9ba97a5f33" //意见反馈目录id\`\*\*
 >
 > ```**``}\`\*\*
+
+
+
+
+
+
 
 
 
