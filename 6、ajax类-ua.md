@@ -54,3 +54,60 @@ U.A.Reverse = {
 
 
 
+### 2、U.A.Request\|\|$.ajaxAjax请求后台数据的方法
+
+```
+作用：Ajax 请求
+
+使用方法：U.A.Request(addr, cs, cb, cbcs);
+
+参数一（addr）：string    访问的地址
+
+参数二（cs）：array       服务器传参
+
+参数三（cb）：function    回调函数
+
+参数四（cbcs）：array     函数传参 -- 这里的传参第一个为loading元素
+
+返回值：object            ajax对象
+
+示例： var _json = U.A.Request("http://127.0.0.1:8080/us.mysql.php", (["db", "selecttype", "本科"]), function(a){
+           
+                      //a.context保存了前端传递的参数。
+           
+                      //a.value保存了后端传递的参数。
+
+           },(["a","b"]))。
+
+结果：发送请求到http://127.0.0.1:8080/us.mysql.php，并向这个地址传递三个参数(数组"db", "selecttype", "本科")
+
+注：返回值为json对象，保存在变量_json中。
+
+
+其他语言示例：
+       加载PHP后台的代码：          
+           var _json = U.A.Request("http://127.0.0.1:8080/us.mysql.php", (["SelecInfo"])).value;
+           注：此例传递了1个参数
+           
+       加载Java后台的代码： 
+           var _json = U.A.Request("http://localhost:1108/USJavaServlet", (["db","selecttype","本科"])).value;
+           注：此例传递了3个参数
+           
+       加载nodejs的后台代码：
+           var _json=U.A.Request("http:// localhost:1337/", (["zs", "SelectAll", 1]));
+           注：此例传递了3个参数
+               
+       加载net的后台方法：
+           var _json=U.A.Request("http:// localhost:80/a.ashx", (["zs", "SelectAll", 1]));
+           注：此例传递了3个参数
+               
+```
+
+
+
+#### 6.2.1、方法解释
+
+####        asdadsa
+
+
+
