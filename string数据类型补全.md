@@ -6,7 +6,6 @@
 
 ```
 功能:字符串输出
-
 ```
 
 #### 2.1.2、Count\(\) {#212、count}
@@ -21,7 +20,6 @@
 示例："123".Count()
 
 结果: 返回3
-
 ```
 
 #### 2.1.3、SubstrU（begin,end） {#213、substru（beginend）}
@@ -40,7 +38,6 @@
 示例："abcdf".substrU(1,3)
 
 结果: "abc"
-
 ```
 
 #### 2.1.4 、jsstring\(\) {#214-、jsstring}
@@ -55,7 +52,6 @@
 示例："12a\r\n\"aaa3".jsstring\(\)
 
 结果："12a\r\n\"aaa3"
-
 ```
 
 #### 2.1.5、SubstrN\(length\) {#215、substrnlength}
@@ -75,7 +71,6 @@
 示例： ”1234”.SubstrN(4)
 
       结果： true
-
 ```
 
 #### 2.1.6、StrIsNull\(\) {#216、strisnull}
@@ -90,7 +85,6 @@
 示例：'    '.StrIsNull()
 
 结果：true
-
 ```
 
 #### 2.1.7 、SetNR\(\) {#217-、setnr}
@@ -104,12 +98,7 @@
 
 示例："asd\r\nasd".SetNR()
 
-结果："asd
-<
-br /
->
-asd"
-
+结果："asd<br />asd"
 ```
 
 #### 2.1.8 、SetBr\(\) {#218-、setbr}
@@ -121,84 +110,42 @@ asd"
 
 返回值: string
 
-示例："asd
-<
-br/
->
-asd".SetBr()
+示例："asd<br/>asd".SetBr()
 
 结果："asd
-
 asd"
-
 ```
 
 #### 2.1.9 、SubN\(\) {#219-、subn}
 
 ```
-//有错误 可能修改方案：.replace(/
-<
-(p)[^
-<
->
-]*
->
-/ig, "").replace(/
-<
-(\/p)[^
-<
->
-]*
->
-/ig, "")
+//有错误 可能修改方案：.replace(/<(p)[^<>]*>/ig, "").replace(/<(\/p)[^<>]*>/ig, "")
 
-功能:去除行 （去除字符串所有
-<
-p
->
-<
-/p
->
-标签）
+功能:去除行 （去除字符串所有<p></p>标签）
 
 参数：无参数
 
 返回值:string
 
-示例:"
-<
-p
->
-123
-<
-/p
->
-".SubN()
+示例:"<p>123</p>".SubN()
 
-结果:”123”
-
+结果:"123"
 ```
 
 #### 2.1.10、SubBRNB\(\) {#2110、subbrnb}
 
 ```
-功能:去除br和空格\(br转换为\r\n\)
+功能:去除br和空格(br转换为 \r\n)
 
 参数：无参数
 
 返回值:string
 
-示例:"
-&
-lt;br/
-&
-gt;123 ".SubBRNB()
+示例:"<br/>123  &nbsp;".SubBRNB()
 
-结果:
-"
+结果:"
 
-123"
-
+123  "
 ```
 
 #### 2.1.11、 IsGEdit\(\) {#2111、-isgedit}
@@ -210,53 +157,27 @@ gt;123 ".SubBRNB()
 
 返回值:boolean
 
-示例:"
-<
-br/
->
-\r\n".IsGEdit()
+示例:"<br/>\r\n".IsGEdit()
 
-     结果:false
+结果:false
 
-示例：""
-&
-lt;br/
-&
-gt;ss\r\n"".IsGEdit()
+示例：""<br/>ss\r\n"".IsGEdit()
 
-     结果：true
-
+结果：true
 ```
 
 #### 2.1.12、 HTMLSign\(\) {#2112、-htmlsign}
 
 ```
-功能:把文本的
-&
-lt; 
-&
-gt;转化成
-&
-lt;
-&
-gt;
+功能:把文本的 &lt; &gt;转化成 <>
 
 参数：无参数
 
-返回值:string  
+返回值:string
 
-示例:" 
-&
-lt; 
-&
-gt;".HTMLSign()
+示例:" &lt; &gt;".HTMLSign()
 
-结果:" 
-&
-lt;
-&
-gt;"
-
+结果:" < >"
 ```
 
 #### 2.1.13、 RemoveHTMLSign\(\) {#2113、-removehtmlsign}
@@ -266,85 +187,53 @@ gt;"
 
 参数：无参数
 
-返回值:string  
+返回值:string
 
-示例:"
-<
-div id='asd'/
->
-".RemoveHTMLSign()
+示例:"<div id='asd'>".RemoveHTMLSign()
 
-结果:"
-&
-lt;div id=
-&
-\#39;asd
-&
-\#39;
-&
-gt;"
-
+结果:"&lt;div id=&#39;asd&#39;&gt;"
 ```
 
 #### 2.1.14 、restore\(\) {#2114-、restore}
 
 ```
-功能:所有《》转换为
-&
-lt;
-&
-gt;
+功能: 所有《》转换为<>
 
 参数：无参数
 
 返回值:string
 
-   示例:"《123》".restore()
+示例:"《123》".restore();
 
-     结果:"
-&
-lt;123
-&
-gt;"
-
+结果:"<123>"
 ```
 
 #### 2.1.15 、secure\(\) {#2115-、secure}
 
 ```
-功能:所有
-&
-lt;
-&
-gt;转换为《》
+功能: 所有<>转换为《》
 
 参数：无参数
 
-返回值:string  
+返回值:string
 
-示例:"
-&
-lt;123
-&
-gt;".secure()
+示例:"<123>".secure()
 
 结果:"《123》"
-
 ```
 
 #### 2.1.16、encode\(\) {#2116、encode}
 
 ```
-功能:把字符串作为URI组件进行编码
+功能: 把字符串作为URI 组件进行编码
 
 参数：无参数
 
-返回值:string  
+返回值:string
 
 示例:"阿萨德asd！！!!".encode()
 
 结果:"%E9%98%BF%E8%90%A8%E5%BE%B7asd%EF%BC%81%EF%BC%81!!"
-
 ```
 
 #### 2.1.17 、Trim\(\) {#2117-、trim}
@@ -359,7 +248,6 @@ gt;".secure()
 示例:"asd\r\n\t a".Trim()
 
 结果:"asda"
-
 ```
 
 #### 2.1.18、 Ltrim\(\) {#2118、-ltrim}
@@ -374,7 +262,6 @@ gt;".secure()
 示例:"asd".Ltrim()
 
 结果:"asd"
-
 ```
 
 #### 2.1.19、 Rtrim\(\) {#2119、-rtrim}
@@ -382,14 +269,13 @@ gt;".secure()
 ```
 功能:去除右边边空格
 
-     参数：无参数
+参数：无参数
 
-     返回值:string  
+返回值:string  
 
-     示例:"asd".Rtrim()
+示例:"asd".Rtrim()
 
-     结果:"asd"
-
+结果:"asd"
 ```
 
 #### 2.1.20 、AddPreSpace\(n，str\) {#2120-、addprespacen，str}
@@ -408,7 +294,6 @@ gt;".secure()
 示例:"abc".AddPreSpace(3,"d")
 
 结果:"abcddd"
-
 ```
 
 #### 2.1.21 、InsertStr\(str,index\) {#2121-、insertstrstrindex}
@@ -427,7 +312,6 @@ gt;".secure()
 示例:"asd".InsertStr("890",1)
 
 结果:"a890sd"
-
 ```
 
 #### 2.1.22、AP\(index\) {#2122、apindex}
@@ -444,7 +328,6 @@ gt;".secure()
 示例:"abcdefg".AP(3)
 
 结果:"abc..."
-
 ```
 
 #### 2.1.23toInt\(\) {#2123toint}
@@ -459,7 +342,6 @@ gt;".secure()
 示例:"1234".toInt()
 
 结果:1234
-
 ```
 
 #### 2.1.24、replaceAll\(s1,s2\) {#2124、replacealls1s2}
@@ -476,7 +358,6 @@ gt;".secure()
 返回值: string
 
 示例:"12345".replaceAll("23","a")
-
 ```
 
 结果:"1a45"
@@ -493,7 +374,6 @@ gt;".secure()
 示例:"{a:123}".parseJSON();
 
 结果:{a: 123}
-
 ```
 
 #### 2.1.26capital（） {#2126capital（）}
@@ -508,7 +388,6 @@ gt;".secure()
 示例:”asd”.capital()
 
 结果:”Asd”
-
 ```
 
 #### 2.1.27、SplitRN（） {#2127、splitrn（）}
@@ -523,50 +402,20 @@ gt;".secure()
 示例:"asd\nqwe\r\nqweqwe".SplitRN()
 
 结果:["asd", "qwe", "qweqwe"]
-
 ```
 
 #### 2.1.28、SplitHTML\(\) {#2128、splithtml}
 
 ```
-功能:根据标签分类 （标签指=》
-&
-lt;
-&
-gt;）
+功能:根据标签分类 （标签指 =》 <>）
 
 参数：无参数
 
-返回值:Array  
+返回值:Array
 
-示例:"
-<
-p
->
-asd
-<
-/p
->
-asd
-<
-br/
->
-".SplitHTML()
+示例:"<p>asd</p>asd<br/>".SplitHTML()
 
-结果:["
-<
-p
->
-", "asd", "
-<
-/p
->
-", "asd", "
-<
-br/
->
-"]
-
+结果:["<p>", "asd", "</p>", "asd", "<br/>"]
 ```
 
 #### 2.1.29、ReplaceHTML（） {#2129、replacehtml（）}
@@ -576,24 +425,11 @@ br/
 
 参数：无参数
 
-返回值:string 
+返回值:string
 
-示例:"
-<
-p
->
-asd
-<
-/p
->
-asd
-<
-br/
->
-".ReplaceHTML()
+示例:"<p>asd</p>asd<br/>".ReplaceHTML()
 
 结果:"asdasd"
-
 ```
 
 #### 2.1.30、 toTxt（） {#2130、-totxt（）}
@@ -605,24 +441,14 @@ br/
 
 返回值:string
 
-示例:"
-<
-p
->
-asd
-<
-/p
->
-asd
-<
-br/
->
-".toTxt()
+示例:"<p>asd</p>asd<br/>".toTxt()
 
 结果:"asd
 
-    asd"
+asd"
 ```
+
+
 
 
 
