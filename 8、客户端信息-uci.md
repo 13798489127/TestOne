@@ -48,10 +48,6 @@ Console.log\(msg\);//打印信息
 
 实例:
 
-
-
-
-
 ### 四、获取用户电脑系统U.CI.getSystem的调用
 
 函数名: U.CI.getSystem\(\)
@@ -62,8 +58,6 @@ Console.log\(msg\);//打印信息
 
 实例:
 
-
-
 ### 五、判断用户支持html5还是flash U.CI.IsHF的调用
 
 函数名: U.CI.IsHF\(\)
@@ -72,10 +66,7 @@ Console.log\(msg\);//打印信息
 
 返回值{String} ‘html5’或’Flash’
 
-实例:  
-
-
-
+实例:
 
 ### 六、获取浏览器信息U.CI.Browser的调用
 
@@ -88,6 +79,4 @@ Console.log\(msg\);//打印信息
 实例:
 
 
-
- ":\"� q
 
