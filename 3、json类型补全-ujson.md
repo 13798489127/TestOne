@@ -6,35 +6,39 @@
 
 ##### 字符串，不能满足系统的需要。
 
-
-
 > 示例数据：
 
-       var dg = \[
+```
+var dg = [
+   
+   {"id":"1","parentid":"0","name":"计算机","info":{"files":"100","t":"f"}},
 
-{"id":"1","parentid":"0","name":"计算机","info":{"files":"100","t":"f"}},
+   {"id":"2","parentid":"1","name":"C盘","info":{"files":"80","t":"f"}},
+   
+   {"id":"3","parentid":"2","name":"Windows","info":{"files":"60","t":"f"}},
+   
+   {"id":"4","parentid":"3","name":"system32","info":{"files":"40","t":"f"}},
+   
+   {"id":"5","parentid":"4","name":"drivers","info":{"files":"20","t":"f"}},
+   
+   {"id":"6","parentid":"0","name":"D盘","info":{"files":"200","t":"f"}}
 
-{"id":"2","parentid":"1","name":"C盘","info":{"files":"80","t":"f"}},
+];
+```
 
-{"id":"3","parentid":"2","name":"Windows","info":{"files":"60","t":"f"}},
-
-{"id":"4","parentid":"3","name":"system32","info":{"files":"40","t":"f"}},
-
-{"id":"5","parentid":"4","name":"drivers","info":{"files":"20","t":"f"}},
-
-{"id":"6","parentid":"0","name":"D盘","info":{"files":"200","t":"f"}}
-
-\];
-
-
-
-图：
+> 图：
 
 
 
-注：
 
-此数据为树数据，适宜作为案例。
 
-用法：\_$\(dg\).函数名\(参数,参数….\)
+> 注：
+
+
+
+* 此数据为树数据，适宜作为案例。
+
+* 用法：\_$\(dg\).函数名\(参数,参数….\)
+
+
 
