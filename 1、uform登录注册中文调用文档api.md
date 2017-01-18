@@ -26,8 +26,6 @@ Internet Explorer 8及以上、Firefox、Chrome、Safari 、360、qq以及 Opera
 
 ### 3、使用方法
 
-
-
 ##### 3.1、引入文件
 
 &lt;!-- 引用强大的urform.框架 帮助效率开发 地图控件的开发都是基于这个框架--&gt;
@@ -38,11 +36,7 @@ Internet Explorer 8及以上、Firefox、Chrome、Safari 、360、qq以及 Opera
 
 &lt;script src="U.U.L.js" type="text/javascript"&gt;&lt;/script&gt;
 
-
-
 ##### 3.2、HTML：无
-
-
 
 ### 4、调用方法
 
@@ -50,9 +44,9 @@ Internet Explorer 8及以上、Firefox、Chrome、Safari 、360、qq以及 Opera
 
 配置:
 
-| **选项** | **类型** | **默认值** | **说明** |
+| 参数 | **类型** | **默认值** | **说明** |
 | :--- | :--- | :--- | :--- |
-| UIE | Int | 0 |  UIE==3：登录页面，             UIE==1：注册页面，             UIE==2：找回密码页面 |
+| UIE | Int | 0 | UIE==3：登录页面，             UIE==1：注册页面，             UIE==2：找回密码页面 |
 | UCB | function | undefined | 回调函数 |
 | \_UDOD | 字符串 | $\("\#UD\_SYC"\) | 获取登录登录注册框 |
 
@@ -62,15 +56,13 @@ Internet Explorer 8及以上、Firefox、Chrome、Safari 、360、qq以及 Opera
 
 调用后返回： true  or  false
 
-
-
 ##### 4.2、登录注册切换函数
 
 U.U.L.SDL（UTF, UCB\);
 
 配置：
 
-| **选项** | **类型** | **默认值** | **说明** |
+| **参数** | **类型** | **默认值** | **说明** |
 | :--- | :--- | :--- | :--- |
 | UTF | 字符串/int | 0 | UIE==3：登录页面，UIE==1：注册页面，UIE==2：找回密码页面 |
 | UCB | function | undefined | 回调函数 |
@@ -79,9 +71,9 @@ U.U.L.SDL（UTF, UCB\);
 
 ```
 U.A.Request("UseStudioManage.userregisterAjax", ([UN, UP, UE, UC, TI, ""]), cb, ([[$("body")[0], true]]));
-   
+
 @param UN 用户名
-   
+
 @param UP 用户密码
 
 @param UE 邮箱
@@ -94,8 +86,7 @@ U.A.Request("UseStudioManage.userregisterAjax", ([UN, UP, UE, UC, TI, ""]), cb, 
 
 @param cb 回调函数 
 
-@param ude 回调传参 [[load元素, true], arg, arg......] 
-
+@param ude 回调传参 [[load元素, true], arg, arg......]
 ```
 
 示例：U.U.L.SDL\(3\);
@@ -104,141 +95,117 @@ U.A.Request("UseStudioManage.userregisterAjax", ([UN, UP, UE, UC, TI, ""]), cb, 
 
 ##### 4.3、登录enter
 
-U.U.L.ENDL \(UDOD, UDTD\);
+U.U.L.ENDL \(UDOD, UDTD\)
 
-选项    类型    默认值    说明
+| **参数** | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| UDOD | int | undefined | 点击元素 |
+| UCB | function | undefined | 回调函数 |
 
-UDOD    int    undefined
-
-UCB    function    undefined    回调函数
-
-3.3.4、登录调用回调使用
+##### 4.4、登录调用回调使用
 
 U.U.L.SYDLHD\(UFN\)
 
-选项    类型    默认值    说明
-
-UFN    Array    true    返回登录状态
+| **参数** | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| UFN | Array | true | 返回登录状态 |
 
 返回值:return true
 
-3.3.5、点击微博或者qq登录
+##### 4.5、点击微博或者qq登录
 
 U.U.L.QWDL \(UDOD, UTF\)
 
-选项    类型    默认值    说明
+| **参数** | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| UDOD | Element |  | 按钮 |
+| UTF | 字符串int |  | 类型判断 |
 
-UTF    Array    0    选择QQ或者是微博
+##### 4.6、Cookie登录
 
-UDOD    字符串 int     0    点击元素判断函数
+简介：1473.cn域下各个应用的用户通过Cookie自动登录,Cookie登录入口，支持跨域。
 
-3.3.6、Cookie登录
+使用方法：U.U.L.CookieL\(\)
 
-简介：1473.cn域下各个应用的用户通过Cookie自动登录,Cookie登录入口。
+##### 4.7、cookie登录查看值
 
-支持跨域
+该函数为cookie登录的异步
 
-U.U.L.CookieL\(\);
+函数：U.U.L.AsynCookieL\(request\);
 
-选项    类型    默认值    说明
+| **参数** | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| request | object |  | 用户的云端Cookie状态 |
 
-\_UTF    字符串 int     U.U.L.GLID\(\);    获取用户的云端Cookie
-
-\_UST    字符串 int     US.NLInfo.LogAddr \|\| "";    获取用户登录的cookie
-
-3.3.7、cookie登录查看值
-
-U.U.L.AsynCookieL\(request\);
-
-选项    类型    默认值    说明
-
-request    字符串 int         用户的云端Cookie状态
-
-3.3.8、获取用户登录cookie，
+##### 4.8、获取用户登录cookie，
 
 云端cookie关键字为usestudiosso，格式为
 
-选项    类型    默认值    说明
+| **参数** | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| Loginid | 字符串int |  | 登录id |
+| UserStamp | 字符串int |  | 账号 |
+| userid | 字符串 |  | 云端用户id |
+| username | 字符串int |  | 云端用户名 |
 
-UID    字符串 int         用户的ID状态
+返回值: 用户登录信息
 
-Loginid    字符串 int        登录id
+##### 4.9、1473桌面直接登录，单击登录按钮时触发的函数
 
-UserStamp    字符串 int        账号
+ U.U.L.SDLD \(UDOD, UTF\)
 
-userid
+| **参数** | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| UDOD | Element |  | 登录所在的div元素 |
+| UTF |  |  | 暂时未使用 |
 
-```
-字符串        云端用户id
-```
+##### 
 
-username    字符串 int        云端用户名
-
-返回值: return \_UDE;//内含数组为用户登录信息
-
-3.3.9、1473桌面直接登录，单击登录按钮时触发的函数
-
-U.U.L.SDLD \(UDOD, UTF\)
-
-选项    类型    默认值    说明
-
-UDOD    字符串 var         登录元素按钮
-
-UTF    Array    undefined    登录状态
-
-3.3.10、已经登录过的用户，执行登录回调。
+##### 4.10、已经登录过的用户，执行登录回调。
 
 U.U.L.AsynSDLD \(UDOD, UST, USE\)；
 
-选项    类型    默认值    说明
+| 参数 | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| UDOD | Element |  | 登录所在的div元素 |
+| UST |  |  | 暂时未使用 |
+| USE | String | "登录" | 登录状态 |
 
-UDOD    字符串 var         登录框
 
-UST    Array    undefined    登录状态
 
-USE
-
-3.3.11、用户登录执行回调
+##### 4.11、用户登录执行回调
 
 U.U.L.DLHD \(\);
 
-此函数如果没有其他应用调用，则该和上一函数合并。
 
-3.3.12、用户登录云端接口，向后台发送请求
+
+##### 4.12、用户登录云端接口，向后台发送请求
 
 U.U.L.UlL \(UN, UP, UDTD, UCB\)；
 
-选项    类型    默认值    说明
+| 参数 | **类型** | **默认值** | **说明** |
+| :--- | :--- | :--- | :--- |
+| UN | 字符串var | 0 | 用户名 |
+| UP | 字符串int | 0 | 密码 |
+| UDTD | Element | undefined | 登录窗口div元素 |
+| UCB | function | function | 回调函数 |
 
-UN    字符串 var     0    用户名
+返回值：请求成功返回true 否则undefined
 
-UP    字符串int    0    密码
+##### 4.13、用户登录执行事件 异步
 
-UDTD    Array    undefined    登录窗口div元素
+函数：U.U.L.AsynUlL\(request\)
 
-UCB    function     function    回调函数
+作用：异步判断用户登录状态
 
-return true;
+##### 4.14、获取用户登录数据
 
-3.3.13、用户登录执行事件
+函数：U.U.L.GetLogin\(UN,UCB\);
 
-U.U.L.AsynUlL\(request, UTF\)
-
-选项    类型    默认值    说明
-
-request    Array    0    登录参数
-
-UTF    Array    0    设置好友信息
-
-return request;//登录异步
-
-3.3.14、获取用户登录数据、
-
-U.U.L.GetLogin\(UN\);
-
-选项    类型    默认值    说明
-
-UN    Array    0    用户ID
+| 参数 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| UN | string | 用户名 |
+| UCB | fun | 回调函数 |
 
 3.3.15、异步获取数据弹出填写个人资料
 
