@@ -2,7 +2,6 @@
 
 ## 前言
 * [前言](README.md)
-* Guid数据类型补全
 
 ## 一、代码规范
 * [1、JS规范](js规范.md)
@@ -34,4 +33,7 @@
     * [Guid数据类型补全](guid数据类型补全.md)
     * [Date数据类型补全](date数据类型补全.md)
 * [3、Json类型补全 U.Json](3、json类型补全-ujson.md)
+* [4、正则表达式](4、正则表达式.md)
+* [5、选择器](5、选择器.md)
+* [6、ajax类 U.A](6、ajax类-ua.md)
 
