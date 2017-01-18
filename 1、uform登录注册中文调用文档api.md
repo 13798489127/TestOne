@@ -152,7 +152,7 @@ U.U.L.QWDL \(UDOD, UTF\)
 
 ##### 4.9、1473桌面直接登录，单击登录按钮时触发的函数
 
- U.U.L.SDLD \(UDOD, UTF\)
+U.U.L.SDLD \(UDOD, UTF\)
 
 | **参数** | **类型** | **默认值** | **说明** |
 | :--- | :--- | :--- | :--- |
@@ -171,13 +171,9 @@ U.U.L.AsynSDLD \(UDOD, UST, USE\)；
 | UST |  |  | 暂时未使用 |
 | USE | String | "登录" | 登录状态 |
 
-
-
 ##### 4.11、用户登录执行回调
 
 U.U.L.DLHD \(\);
-
-
 
 ##### 4.12、用户登录云端接口，向后台发送请求
 
@@ -207,131 +203,88 @@ U.U.L.UlL \(UN, UP, UDTD, UCB\)；
 | UN | string | 用户名 |
 | UCB | fun | 回调函数 |
 
-3.3.15、异步获取数据弹出填写个人资料
+##### 4.15、异步获取数据弹出填写个人资料
 
-U.U.L.AsynGetLogin \(request\)；
+U.U.L.AsynGetLogin \(request\)
 
-选项    类型    默认值    说明
+##### 4.16、用户登录初始化用户资料
 
-request    Array    0    用户信息
+U.U.L.SetUserInfo \(UDE, UTF\)
 
-3.3.16、用户登录初始化用户资料
+| 参数 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| UDE | Array | 用户信息 |
+| UTF | Boolean | 是否修改判断 |
 
-U.U.L.SetUserInfo \(UDE, UTF\) ；
+##### 
 
-选项    类型    默认值    说明
+##### 4.17、登录成功执行事件
 
-UDE    Array    0    用户信息
+U.U.L.SLF  \(\)
 
-UTF    字符串int    0    用户信息数量
-
-return US.userinfo;
-
-3.3.17、登录成功执行事件
-
-U.U.L.SLF  \(UIF\)；
-
-选项    类型    默认值    说明
-
-UIF    Array    0
-
-3.3.18、登录用户添加用户信息
+##### 4.18、登录用户添加用户信息
 
 U.U.L.TJYHXX\(\);
 
-3.3.19、用户头部头像个人信息
+##### 4.19、用户头部头像个人信息
 
 U.U.L.GRXX\(\);
 
-3.3.20、注销
+##### 4.20、注销
 
-U.U.L.ZXDLTP（）;
+U.U.L.ZXDLTP\(\);
 
-3.3.21、确认注销
+##### 4.21、确认注销
 
-U.U.L.QDZXDLTP \(UTF\)；
+U.U.L.QDZXDLTP \(UTF\);
 
-选项    类型    默认值    说明
+| 参数 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| UTF | Boolean | 是否清楚cookie |
 
-UTF    Array    0    传入用户ID
+##### 4.22、用户退出指定帐号 清理cookie
 
-3.3.22、用户退出指定帐号 清理cookie
+U.U.L.TCUL \(\)
 
-U.U.L.TCUL \(UCB\) ；
-
-选项    类型    默认值    说明
-
-UCB    Array    0    传入用户cookie
-
-3.3.23、退出账户异步。
+##### 4.23、退出账户异步
 
 U.U.L.AsynTCUL \(request\)
 
-选项    类型    默认值    说明
+##### 4.24、用户下线或者给别人顶下线
 
-request    Array    0    账号信息
+U.U.L.UL \(UTF\)
 
-3.3.24、用户下线获取给别人顶下线
+| 参数 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| UTF | Boolean | 是否为被顶下线 |
 
-U.U.L.UL \(UTF\)；
-
-选项    类型    默认值    说明
-
-UTF    Array    0    状态
-
-3.3.25、填写登录信息
+##### 4.25、外链登录填写登录信息
 
 U.U.L.USUTJ\(UDE, UN\);
 
-选项    类型    默认值    说明
+| 参数 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| UDE | Array | 用户信息 |
+| UN | String | 用户名 |
 
-UDE    Array    0    登录信息
-
-UN    Int    0    用户账号
-
-3.3.26、把用户填写的账号密码写入数据库
+##### 4.26、把用户填写的账号密码写入数据库
 
 U.U.L.TXZH \(UTF, UDE, UN, UP\)
 
-选项    类型    默认值    说明
+| 参数 | 类型 | 说明 |
+| :--- | :--- | :--- |
+| UTF | Array | 是否修改账号密码 |
+| UDE | String | 用户信息 |
+| UN | String | 用户名 |
+| UP | Int | 密码 |
 
-UTF    Array    0    登录密匙
-
-UDE    Int    0    获取密匙处
-
-UN    Int    0    账号
-
-UP    Int    0    密码
-
-3.3.27、外链登录成功 同时修改个人信息
+##### 4.27、外链登录成功，异步修改个人信息
 
 U.U.L.AsynTXZH \(request\)
 
-"Country": "中D国¨²",
 
-```
-"Province": \_USE.province \|\| "",
 
-        "UserEmail": \_USE.UserEmail \|\| "",
 
-        "Birthday": U.MT.getTimeStr\(\_USE.Birthday, "String"\),
 
-        "City": \_USE.city \|\| "",
 
-        "UserAddress": \_USE.location \|\| "",
-
-        "UserNickName": \_USE.screen\_name \|\| \_USE.nickname,
-
-        "UserRemarks": \_USE.description \|\| "",
-
-        "UserIndividualitysignature": \_USE.description \|\| "",
-
-        "UserThumbnailImageHead": \_USE.avatar\_large \|\|
-```
-
-选项    类型    默认值    说明
-
-request    Array    0    个人信息组
-
-Ufrom 框架获取元素方式
 
