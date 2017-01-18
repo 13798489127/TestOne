@@ -6,11 +6,11 @@
 
 使用方法：U.UI.Editor\(obj\);
 
-参数一：
+参数：
 
 ```
 相关属性,形如：{
-          
+
                     id：表示窗口唯一id
 
                     head：true是否显示功能区域默认不显示
@@ -30,11 +30,19 @@
 
 示例：
 
-                           asd
+```
+Test = function () { alert() }
 
-U.UI.Editor\({ id: "aa", head: true, name: "编辑器窗体名", title: "标题（主题）", context: "内容","fcb": U.M.apply\(null, \[\[Test\]\]\) }\);
-
-Test = function \(\) { }
+U.UI.Editor({ id: "aa", 
+              head: true, 
+              name: "编辑器窗体名", 
+              title: "标题（主题）", 
+              context: "内容",
+              "fcb": U.M.apply(null, [[Test]]) 
+              });
+```
 
 返回窗体：
+
+![](/Image/image100.png)
 
