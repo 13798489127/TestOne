@@ -4,11 +4,9 @@
 
 1、简介：
 
-* [x] 
-* [ ] 
 登录注册是一个基于 ufrom 的登录窗体，它能够很方便、很轻松的帮助您在网站中构建功能丰富、交互性强的登录注册，主要功能有：
 
-           支持基本登录、注册。
+               支持基本登录、注册。
 
            支持找回密码
 
@@ -20,6 +18,8 @@
 
            支持登录状态中的账号重复登录顶下线提醒。
 
+
+
 2、兼容性：
 
 Internet Explorer 8及以上、Firefox、Chrome、Safari 、360、qq以及 Opera 支持;
@@ -30,7 +30,7 @@ Internet Explorer 8及以上、Firefox、Chrome、Safari 、360、qq以及 Opera
 
 &lt;!-- 引用强大的urform.框架 帮助效率开发 地图控件的开发都是基于这个框架--&gt;
 
-&lt;script type="text/javascript" src="[http://www.1473.cn/uform.js"&gt;&lt;/script&gt](http://www.1473.cn/uform.js"&gt;&lt;/script&gt);
+&lt;script type="text/javascript" src="[http://www.1473.cn/uform.js"&gt;&lt;/script&gt;](http://www.1473.cn/uform.js"&gt;&lt;/script&gt);
 
 &lt;!-- 最后就是这个自己操作的js啦--&gt;
 
@@ -81,7 +81,7 @@ U.A.Request\("UseStudioManage.userregisterAjax", \(\[UN, UP, "", "", 16, ""\]\),
 @param UN 用户名
 
 ```
-     @param UP 用户密码
+@param UP 用户密码
 
     @param 邮箱
 
@@ -89,7 +89,7 @@ U.A.Request\("UseStudioManage.userregisterAjax", \(\[UN, UP, "", "", 16, ""\]\),
 
      @param TypeID
 
-     @param 
+     @param
 ```
 
 例如: U.U.L.SDL（3）;从注册界面切换到登录界面
@@ -337,7 +337,7 @@ U.U.L.AsynTXZH \(request\)
 "Country": "中D国¨²",
 
 ```
-        "Province": \_USE.province \|\| "",
+"Province": \_USE.province \|\| "",
 
         "UserEmail": \_USE.UserEmail \|\| "",
 
@@ -353,7 +353,7 @@ U.U.L.AsynTXZH \(request\)
 
         "UserIndividualitysignature": \_USE.description \|\| "",
 
-        "UserThumbnailImageHead": \_USE.avatar\_large \|\| 
+        "UserThumbnailImageHead": \_USE.avatar\_large \|\|
 ```
 
 选项    类型    默认值    说明
