@@ -4,7 +4,7 @@
 
 * ### U.Img.Create
 
-###             阿斯达啥
+             阿斯达啥
 
 使用方法：U.Img.Create\(UDE, UI, UME, UCB\)
 
