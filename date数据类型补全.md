@@ -1,4 +1,4 @@
-# Date数据类型补全
+# [Date数据类型补全](/api.1473.cn/example/date.htm)
 
 ---
 
@@ -124,7 +124,5 @@
 返回值"二零一六一一二三一一年二月四十三日"
 ```
 
----
 
-[Date数据类型补全HTML示例查看](https://www.gitbook.com/book/13798489127/uform/edit#)
 

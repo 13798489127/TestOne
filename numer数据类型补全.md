@@ -1,4 +1,4 @@
-# Number数据类型补全
+# [Number数据类型补全](/api.1473.cn/example/Number.htm)
 
 ---
 
@@ -92,9 +92,7 @@
 结果：2.220446049250313e-16
 ```
 
----
 
-[Number数据类型补全HTML示例查看](https://www.gitbook.com/book/13798489127/uform/edit#)
 
 ### 
 

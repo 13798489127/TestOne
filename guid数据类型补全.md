@@ -1,4 +1,4 @@
-# Guid数据类型补全
+# [Guid数据类型补全](/api.1473.cn/example/Guid.htm)
 
 ---
 
@@ -44,7 +44,5 @@
 结果: true
 ```
 
----
 
-[Guid数据类型补全HTML示例查看](https://www.gitbook.com/book/13798489127/uform/edit#)
 

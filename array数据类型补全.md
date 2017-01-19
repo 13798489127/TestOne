@@ -1,4 +1,4 @@
-# Array数据类型补全
+# [Array数据类型补全](/api.1473.cn/example/Array.htm)
 
 ---
 
@@ -343,10 +343,6 @@
 
      [1, b]
 ```
-
----
-
-[Array数据类型补全HTML示例查看](/api.1473.cn/example/Array.htm)
 
 
 
