@@ -4,23 +4,23 @@
 
 > 安装包在ftp://10.3.14.32数据库的MSSQL文件夹里.
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image011.png)
+![](/Image/image011.png)
 
 #### 1、装载安装包后，打开安程序点击左侧安装 {#1、装载安装包后，打开安程序点击左侧安装}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image012.png)
+![](/Image/image012.png)
 
 #### 2、全新安装 {#2、全新安装}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image013.png)
+![](/Image/image013.png)
 
 #### 3、无失败、警告、跳过，即可确定 {#3、无失败、警告、跳过，即可确定}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image014.png)
+![](/Image/image014.png)
 
 #### 4、下一步，密钥自动生成 {#4、下一步，密钥自动生成}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image015.png)
+![](/Image/image015.png)
 
 #### 5、我接受许可条款，下一步 {#5、我接受许可条款，下一步}
 
@@ -28,27 +28,27 @@
 
 #### 6、安装 {#6、安装}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image017.png)
+![](/Image/image017.png)
 
 #### 7、下一步 {#7、下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image018.png)
+![](/Image/image018.png)
 
 #### 8、选第一个，下一步 {#8、选第一个，下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image019.png)
+![](/Image/image019.png)
 
 #### 9、全选，然后下一步 {#9、全选，然后下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image020.png)
+![](/Image/image020.png)
 
 #### 10、下一步 {#10、下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image021.png)
+![](/Image/image021.png)
 
 #### 11、这一步可以自己取名，也可以默认，下一步 {#11、这一步可以自己取名，也可以默认，下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image022.png)
+![](/Image/image022.png)
 
 #### 12、下一步 {#12、下一步}
 
@@ -78,23 +78,23 @@
 
 #### 18、下一步 {#18、下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image030.png)
+![](/Image/image028.png)
 
 #### 19、下一步 {#19、下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image031.png)
+![](/Image/image031.png)
 
 #### 20、下一步 {#20、下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image032.png)
+![](/Image/image032.png)
 
 #### 21、下一步 {#21、下一步}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image033.png)
+![](/Image/image033.png)
 
 #### 22、安装 {#22、安装}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image034.png)
+![](/Image/image034.png)
 
 #### 23、等待安装完毕 {#23、等待安装完毕}
 
@@ -120,15 +120,5 @@
 
 #### 28、至此即可连接上本地数据库 {#28、至此即可连接上本地数据库}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image042.png)
-
-
-
-
-
-
-
-
-
-
+![](/Image/image042.png)
 

@@ -24,7 +24,7 @@ javascript没有命名空间，导致多个js文件之间没有规范的区分�
 
 **示例：Namespace.register\("U.U.YY"\);**
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image001.png)
+![](/Image/image001.png)
 
 示例二：//桌面应用变量
 

@@ -20,7 +20,7 @@
 
 ## 2、邓杰所作规划图 {#2、邓杰所作规划图}
 
-![](https://13798489127.gitbooks.io/uform/content/assets/image002.png)
+![](/Image/image002.png)
 
 Css总则：
 
@@ -33,14 +33,4 @@ U.css总体控制，里面放置的是
 （3）、自定义整体元素。
 
 （4）、背景图，所有图片的放置位置。例如：.UD\_Pic{background-image:url\([http://www.1473.cn/img/new.png\](http://www.1473.cn/img/new.png/)\); }/\*全局\*/
-
-
-
-
-
-
-
-
-
-
 
