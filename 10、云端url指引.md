@@ -187,25 +187,30 @@ type定义：
 
 ### 3、云端url指引
 
-\(一\)后台url重写流程
+##### \(一\)后台url重写流程
 
+```
 1.Nginx处理模块的定义
+    1)url重写模块首先会尽快nginx进行判断，在这里我们分成两种url的形式作为分配管理
 
-1\)url重写模块首先会尽快nginx进行判断，在这里我们分成两种url的形式作为分配管理
+    2)guid.1473.cn文件id.1473.cn直接定位到disk的一般处理文件rew.ashx中
+    
+    3)从10000.1473.cn开始编号通过nginx识别除了我们已知的域名以外的所有的域名进行处理nginx对应的文件/etc/nginx/sites-enabled/default 30-41 160-171行中
+```
 
-2\)guid.1473.cn文件id.1473.cn直接定位到disk的一般处理文件rew.ashx中
+##### 2.一般处理模块的方法处理
 
-3\)从10000.1473.cn开始编号通过nginx识别除了我们已知的域名以外的所有的域名进行处理nginx对应的文件/etc/nginx/sites-enabled/default 30-41 160-171行中
+```
+1)一般处理文件对应的文件为disk.1473.cn/rew.ashx
+```
 
-2.一般处理模块的方法处理
-
-1\)一般处理文件对应的文件为disk.1473.cn/rew.ashx
-
-2\)处理文件中分为两种处理的方式：
-
-a\)office文件的处理\(office文件包含了uw,ue,pdf,rtf,mht,doc,docx,xls,xlsx,ppt,pptx\)等文件格式
-
-b\)普通文件的处理，除了上述的文件以外所有文件都以输出文件的形式处理
+```
+2)处理文件中分为两种处理的方式：
+    
+    a)office文件的处理(office文件包含了uw,ue,pdf,rtf,mht,doc,docx,xls,xlsx,ppt,pptx)等文件格式
+    
+    b)普通文件的处理，除了上述的文件以外所有文件都以输出文件的形式处理
+```
 
 ### 4、云端url流程图
 
