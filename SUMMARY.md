@@ -64,4 +64,5 @@
     * [RadioList列表](7、radiolist列表.md)
 * [3、视频接口](3、视频接口.md)
 * [4、url跳转模块](4、url跳转模块.md)
+* [5、图片处理模块 U.Img](5、图片处理模块-uimg.md)
 
