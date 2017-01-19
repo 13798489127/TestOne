@@ -44,5 +44,7 @@
 结果: true
 ```
 
+---
 
+[Guid数据类型补全HTML示例查看](https://www.gitbook.com/book/13798489127/uform/edit#)
 

@@ -448,5 +448,11 @@ asd"
 asd"
 ```
 
+---
+
+[String数据类型补全HTML示例查看](/api.1473.cn/example/String.htm)
+
+### 
+
 
 
