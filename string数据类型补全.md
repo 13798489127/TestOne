@@ -1,4 +1,4 @@
-# [String数据类型补全](/api.1473.cn/example/String.htm) {#string数据类型补全}
+# [String数据类型补全](/example/String.htm) {#string数据类型补全}
 
 ---
 
@@ -447,10 +447,6 @@ asd"
 
 asd"
 ```
-
-
-
-
 
 
 

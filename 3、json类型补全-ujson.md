@@ -1,4 +1,4 @@
-## [Json类型补全U.Json](/api.1473.cn/example/json.htm)
+## [Json类型补全U.Json](/example/Json.htm)
 
 ---
 

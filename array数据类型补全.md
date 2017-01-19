@@ -1,4 +1,4 @@
-# [Array数据类型补全](/api.1473.cn/example/Array.htm)
+# [Array数据类型补全](/example/Array.htm)
 
 ---
 

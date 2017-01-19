@@ -1,4 +1,4 @@
-# [Date数据类型补全](/api.1473.cn/example/date.htm)
+# [Date数据类型补全](/example/Date.htm)
 
 ---
 

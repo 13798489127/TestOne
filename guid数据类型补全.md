@@ -1,4 +1,4 @@
-# [Guid数据类型补全](/api.1473.cn/example/Guid.htm)
+# [Guid数据类型补全](/example/Guid.htm)
 
 ---
 
