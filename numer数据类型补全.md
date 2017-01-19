@@ -1,4 +1,4 @@
-# [Number数据类型补全](/example/Number.htm)
+# [Number数据类型补全](http://api.1473.cn/example/Number.htm)
 
 ---
 
