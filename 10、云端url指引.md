@@ -203,10 +203,13 @@ type定义：
 
 * 处理文件中分为两种处理的方式：
 
-* * a\)office文件的处理\(office文件包含了uw,ue,pdf,rtf,mht,doc,docx,xls,xlsx,ppt,pptx\)等文件格式
+```
+    a)office文件的处理(office文件包含了uw,ue,pdf,rtf,mht,doc,docx,xls,xlsx,ppt,pptx)等文件格式
+
+    b)普通文件的处理，除了上述的文件以外所有文件都以输出文件的形式处理
+```
 
 
-  * b\)普通文件的处理，除了上述的文件以外所有文件都以输出文件的形式处理
 
 ### 4、云端url流程图
 
