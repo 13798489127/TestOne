@@ -2,7 +2,7 @@
 
 ---
 
-### 1、纯数据跨域解决办法
+### 1、[纯数据跨域解决办法](/api.1473.cn/example/DataJsonp.htm)
 
 ```
 函数：U.CD.LIFA(t,cb)
@@ -29,7 +29,7 @@ U.CD.LIFA([["admin", "http://admin.1473.cn/index.htm", "AAjax"]], function () {
 注：需要挂载到1473子域名下才可使用
 ```
 
-### 2、调用窗体（UI）的跨域解决办法
+### 2、[调用窗体（UI）的跨域解决办法](/api.1473.cn/example/UIJsonp.htm)
 
 ```
 注：需要引用uform.css 和 uformd.js才可使用
