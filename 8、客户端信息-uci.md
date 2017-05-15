@@ -51,7 +51,7 @@
 
 示例：
 
-![](/assets/image074.png)
+![](/Image/image074.png)
 
 ### 四、获取用户电脑系统U.CI.getSystem的调用
 
@@ -63,7 +63,9 @@
 返回值{String} 操作系统名称
 ```
 
-示例：  ![](/assets/image075.png)
+示例：  
+
+![](/Image/image075.png)
 
 ### 五、判断用户支持html5还是flash U.CI.IsHF的调用
 
@@ -75,7 +77,9 @@
 返回值{String} 'html5' 或 'Flash'
 ```
 
-示例：  ![](/assets/image076.png)
+示例：  
+
+![](/Image/image076.png)
 
 ### 六、获取浏览器信息U.CI.Browser的调用
 
@@ -87,5 +91,7 @@
 返回值{object}浏览器信息
 ```
 
-示例：![](/assets/image077.png)
+示例：
+
+![](/Image/image077.png)
 

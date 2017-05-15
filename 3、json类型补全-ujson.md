@@ -28,7 +28,7 @@ var dg = [
 
 > 图：
 
-![](/assets/image073.png)
+![](/Image/image073.png)
 
 > 注：
 
