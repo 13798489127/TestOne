@@ -22,11 +22,15 @@ U.PG.PPage(ParentElement, TotalLength, PageNum, DataNum, {
 
 参数四（DataNum）：一页数据的数量
 
-参数五（json）：键值一（"isp"）：显示的页数，左右对称显示
+参数五（json）：
 
-     如：5 表示左右个显示5个数字页
-
-键值二（fun）：\[\[fun，\(\[page\]\)\]\]
+```
+键值一（"isp"）：显示的页数，左右对称显示
+                
+                如：5 表示左右个显示5个数字页
+ 
+键值二（fun）：[[fun，([page])]]
+```
 
 参数（fun） ： 回调函数
 
