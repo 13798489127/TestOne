@@ -24,9 +24,11 @@ U.PG.PPage(ParentElement, TotalLength, PageNum, DataNum, {
 
 参数五（json）：键值一（"isp"）：显示的页数，左右对称显示
 
-                               如：5 表示左右个显示5个数字页
+```
+                           如：5 表示左右个显示5个数字页
 
-                                       键值二（"fun"）：\[\[fun,\(\[page\]\)\]\]
+                                   键值二（"fun"）：\[\[fun,\(\[page\]\)\]\]
+```
 
 参数（fun） ： 回调函数
 
@@ -40,14 +42,15 @@ U.PG.PPage(ParentElement, TotalLength, PageNum, DataNum, {
 
 ```js
 U.test = function (page){
+
         document.body.innerHTML ="";
-        
+
         U.PG.PPage(document.body,20,page,5,{
-        
+
                 "isp":5,
-                
+
                 "fun":[[function(Page){U.test(Page);},([1])]],
-                
+
                 "page":[0]
         });
 }
@@ -56,6 +59,4 @@ U.test = function (page){
 运行：U.test\(0\);
 
 页面示例：
-
-
 
