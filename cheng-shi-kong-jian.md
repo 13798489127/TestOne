@@ -26,9 +26,9 @@ U.PG.PPage(ParentElement, TotalLength, PageNum, DataNum, {
 
 ```
 键值一（"isp"）：显示的页数，左右对称显示
-                
+
                 如：5 表示左右个显示5个数字页
- 
+
 键值二（fun）：[[fun，([page])]]
 ```
 
@@ -60,7 +60,7 @@ U.test = function (page){
 
 运行：
 
-U.test\(0\);
+    U.test\(0\);
 
 页面示例：
 
