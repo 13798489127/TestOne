@@ -60,7 +60,9 @@ U.test = function (page){
 
 运行：
 
-    U.test\(0\);
+```
+U.test(0);
+```
 
 页面示例：
 
