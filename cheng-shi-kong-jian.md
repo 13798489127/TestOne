@@ -66,5 +66,5 @@ U.test(0);
 
 页面示例：
 
-![](/assets/import.png)
+![](/Image/import.png)
 
