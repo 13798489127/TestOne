@@ -22,7 +22,7 @@
 结果: 返回3
 ```
 
-[查看示例](javascript:U.UI.From%28{ min: false, max: false, id: "U_Boom_AM_OfficeUser", style: { "width": "100%", "height": "100%" }, content: "http://c.1473.cn/code=1", title: "查看示例文件"}%29;)
+[查看示例](javascript:U.UI.From%28{ min: false, max: false,  style: { "width": "100%", "height": "100%" }, content: "http://c.1473.cn/code=1", title: "查看示例文件"}%29;)
 
 #### 2.1.3、SubstrU（begin,end） {#213、substru（beginend）}
 
