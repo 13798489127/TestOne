@@ -24,7 +24,7 @@
 
 \[查看示例\]\(javascript:U.UI.From%28{ min: false, max: false,  style: { "width": "100%", "height": "100%" }, content: "[http://c.1473.cn/code=1](http://c.1473.cn/code=1)", title: "查看示例文件"}%29;\)
 
- [查看示例](javascript:void%280%29)
+[查看示例](javascript:U.Alert%28'asd'%29)
 
 #### 2.1.3、SubstrU（begin,end） {#213、substru（beginend）}
 
