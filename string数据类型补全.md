@@ -22,7 +22,7 @@
 结果: 返回3
 ```
 
-[AAA](javascript:viod%28alert%28%29%29)
+[gfhfgh](javascript:alert%28%29)
 
 #### 2.1.3、SubstrU（begin,end） {#213、substru（beginend）}
 
