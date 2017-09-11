@@ -22,8 +22,6 @@
 结果: 返回3
 ```
 
-[gfhfgh](javascript:alert%28%29)
-
 #### 2.1.3、SubstrU（begin,end） {#213、substru（beginend）}
 
 ```
@@ -387,7 +385,7 @@ asd"
 
 返回值:string 
 
-示例:”asd”.capital()
+示例:"asd".capital()
 
 结果:”Asd”
 ```
