@@ -6,17 +6,20 @@
 
 ## b\)参数列表
 
-###           参数一：UDW（window）
+```
+参数一：UDW（window）
 
-当前所在的window层
+     当前所在的window层
+     
+参数二：UDOD（element）
 
-### 参数二：UDOD（element）
+     需要光标控制的元素
+     
+参数三：UDE（object）
 
-需要光标控制的元素
-
-### 参数三：UDE（object）
-
-需要传参的对象，形式为{CB:光标和键盘控制的回调函数, TF:该光标的唯一识别码}
+     需要传参的对象，形式为{CB:光标和键盘控制的回调函数, TF:该光标的唯一识别码}
+     
+```
 
 ## c\)返回参数\(U.D.E.SelectionRange\)
 
