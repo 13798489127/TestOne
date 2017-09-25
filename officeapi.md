@@ -1,5 +1,3 @@
-
-
 # 1、U.D.E.GetSelectionRange
 
 ## a\)描述
@@ -8,7 +6,7 @@
 
 ## b\)参数列表
 
-###         参数一：UDW（window）
+###           参数一：UDW（window）
 
 当前所在的window层
 
@@ -23,6 +21,4 @@
 ## c\)返回参数\(U.D.E.SelectionRange\)
 
 返回光标使用的对象（U.D.E.SelectionRange对象）
-
-
 
