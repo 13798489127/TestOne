@@ -79,6 +79,8 @@ U.UI.Editor({ id: "aa",
 ```
 
 ```
+parentElement = $$("div", { "style": {"width": "700px", "height": "600px"}}, $("body")[0]);
+
 U.UI.Editor({   id: "aa", 
                 head: true, 
                 name: "编辑器窗体名",
