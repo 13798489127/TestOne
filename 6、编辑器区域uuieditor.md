@@ -2,7 +2,7 @@
 
 ---
 
-窗体编辑器
+## 窗体编辑器
 
 适用范围：博客发帖，论坛发帖，word编辑区域的公有属性
 
@@ -48,7 +48,7 @@ U.UI.Editor({ id: "aa",
 
 ![](/Image/image100.png)
 
-非窗体编辑器
+## 非窗体编辑器
 
 适用范围：博客发帖，论坛发帖，word编辑区域的公有属性
 
@@ -72,14 +72,21 @@ U.UI.Editor({ id: "aa",
                     context：内容
 
                     fcb：回调函数
-                    
+
                     parentEle : $("#parentEle")[0]
 
                }
 ```
 
 ```
-
+U.UI.Editor({   id: "aa", 
+                head: true, 
+                name: "编辑器窗体名",
+                title:false, 
+                context: "内容",
+                fcb: U.M.apply(null, [[Test]]), 
+                parentEle : parentElement
+});
 ```
 
 
