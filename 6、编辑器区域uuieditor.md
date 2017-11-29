@@ -60,7 +60,7 @@ U.UI.Editor({ id: "aa",
 相关属性,形如：{
 
                     id：表示窗口唯一id
-                    
+
                     head：true是否显示功能区域默认不显示
 
                     isc：暂不了解
@@ -72,6 +72,8 @@ U.UI.Editor({ id: "aa",
                     context：内容
 
                     fcb：回调函数
+                    
+                    parentEle : $("#parentEle")[0]
 
                }
 ```
